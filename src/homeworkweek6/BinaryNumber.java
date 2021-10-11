@@ -1,5 +1,5 @@
 package homeworkweek6;
-
+//16. Write a Java program to add two binary numbers.
 import java.util.Scanner;
 
 public class BinaryNumber {
@@ -10,7 +10,7 @@ public class BinaryNumber {
         System.out.println("Enter second binary number");
         String b2 = ba.nextLine();
         String sum=binaryAdd(b1,b2);
-        System.out.println("Addition of two binary numbr is :"+sum);
+        System.out.println("Addition of two binary number is :"+sum);
     }
 
     public static String binaryAdd(String b1, String b2) {
